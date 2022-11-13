@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ILhpFFwDMKx1nlnKCk4IgMOVJyFdaEYhZl7bqu3VVNs=",
+  "Hash": "Rc0X/45AccN7nse+VKczKq21+K73MQLuPESLDeTaRVQ=",
   "Source": "Portfolio-FatlindBytyqi",
   "BasePath": "_content/Portfolio-FatlindBytyqi",
   "Mode": "Default",
@@ -338,6 +338,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\fatli\\OneDrive\\Documents\\GitHub\\Portfolio-FatlindBytyqi\\wwwroot\\css\\Style.css",
+      "SourceId": "Portfolio-FatlindBytyqi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatli\\OneDrive\\Documents\\GitHub\\Portfolio-FatlindBytyqi\\wwwroot\\",
+      "BasePath": "_content/Portfolio-FatlindBytyqi",
+      "RelativePath": "css/Style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Style.css"
     },
     {
       "Identity": "C:\\Users\\fatli\\OneDrive\\Documents\\GitHub\\Portfolio-FatlindBytyqi\\wwwroot\\favicon.ico",
