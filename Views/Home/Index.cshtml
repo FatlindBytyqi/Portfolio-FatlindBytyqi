@@ -1,8 +1,74 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<head>
+    <link href="/css/Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="Page">
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        <div class="navbar">
+            <button onclick="scrollToTop()" class="logo">FB Portfolio</button>
+            <script>
+                function scrollToTop() {
+                    window.scrollTo(0, 0);
+                }
+
+            </script>
+            <div id="butonat">
+                <button onclick="scrolldiv()" class="butoni" id="butAbout">About</button>
+                <script>
+
+                    function scrolldiv() {
+                        window.scroll(0,
+                            findPosition(document.getElementById("About")));
+                    }
+                    function findPosition(obj) {
+                        var currenttop = 0;
+                        if (obj.offsetParent) {
+                            do {
+                                currenttop += obj.offsetTop;
+                            } while ((obj = obj.offsetParent));
+                            return [currenttop];
+                        }
+                    }</script>
+
+
+
+                <button onclick="scrolldiv1()" class="butoni" id="butContact">Contact</button>
+                <script>
+                    function scrolldiv1() {
+                        window.scroll(0,
+                            findPosition1(document.getElementById("Contact")));
+                    }
+                    function findPosition1(obj) {
+                        var currenttop = 0;
+                        if (obj.offsetParent) {
+                            do {
+                                currenttop += obj.offsetTop;
+                            } while ((obj = obj.offsetParent));
+                            return [currenttop];
+                        }
+                    }</script>
+
+
+
+                <button onclick="scrolldiv2()" class="butoni" id="butRepos">Repos</button>
+                <script>
+                    function scrolldiv2() {
+                        window.scroll(0,
+                            findPosition2(document.getElementById("repos")));
+                    }
+                    function findPosition2(obj) {
+                        var currenttop = 0;
+                        if (obj.offsetParent) {
+                            do {
+                                currenttop += obj.offsetTop;
+                            } while ((obj = obj.offsetParent));
+                            return [currenttop];
+                        }
+                    }</script>
+            </div>
+        </div>
 </div>
+</body>
