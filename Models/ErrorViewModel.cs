@@ -1,0 +1,9 @@
+namespace Portfolio_FatlindBytyqi.Models
+{
+    public class ErrorViewModel
+    {
+        public string? RequestId { get; set; }
+
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    }
+}
