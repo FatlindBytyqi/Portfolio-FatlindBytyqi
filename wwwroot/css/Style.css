@@ -1,0 +1,189 @@
+﻿.Page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ddd;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#butonat {
+    float: right;
+}
+
+.butoni {
+    background-color: #3464b9;
+    border-radius: 8px;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar {
+    position: sticky;
+    top: 20px;
+    z-index: 100;
+}
+
+.butoni:hover {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.Home {
+    color: black;
+    text-align: center;
+    padding-top: 200px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+    .Home > img {
+        width: 200px;
+        height: 200px;
+        padding: 15px;
+    }
+
+.About {
+    color: black;
+    text-align: center;
+    padding-top: 200px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#linkedin {
+    background-color: #3464b9;
+    border-radius: 8px;
+    color: white;
+    padding: 30px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+    #linkedin:hover {
+        background-color: cornflowerblue;
+        color: white;
+        border-radius: 10px;
+    }
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+    .Contact img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+
+#repos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+    #repos > li {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
+
+h3, p {
+    text-align: center;
+    color: #3960a5;
+}
+
+
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    color: #3464b9;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    width: 850px;
+    height: 700px
+}
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #3464b9;
+    font-weight: bolder;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    .prev:hover, .next:hover {
+        background-color: #3464b9;
+    }
+
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
