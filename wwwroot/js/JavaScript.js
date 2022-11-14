@@ -1,4 +1,5 @@
-﻿var slideIndex = 1;
+﻿//Logic for the first slideshow
+var slideIndex = 1;
 showSlides(slideIndex);
 function plusSlides(n) {
     showSlides(slideIndex += n);
@@ -21,6 +22,8 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+//Copied/pasted Logic for the second slideshow with some minor changes
 
 var slideIndex1 = 1;
 showSlides1(slideIndex1);

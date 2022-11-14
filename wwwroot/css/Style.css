@@ -9,11 +9,24 @@
     margin: 0;
 }
 
-#butonat {
-    float: right;
-
+h3, p {
+    text-align: center;
+    color: black;
 }
 
+
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    color: #027398;
+    ;
+}
+
+
+/*Button  Style*/
+#butonat {
+    float: right;
+}
 
 button {
     background-color: #0d94c1;
@@ -50,6 +63,8 @@ button {
             right: 10px;
         }
 
+
+
 .navbar {
     position: sticky;
     top: 20px;
@@ -69,6 +84,8 @@ button {
 
 
 
+/*Home div Style*/
+
 .Home {
     color: black;
     text-align: center;
@@ -86,6 +103,7 @@ button {
 
 
 
+/*About div Style*/
 .About {
     color: black;
     text-align: center;
@@ -97,6 +115,7 @@ button {
 
 
 
+/*linkedin div Style*/
 #linkedin {
     background-color: #0d94c1;
     border-radius: 8px;
@@ -132,6 +151,8 @@ button {
 
 
 
+/*Contact div Style*/
+
 .Contact {
     display: flex;
     flex-direction: column;
@@ -158,6 +179,7 @@ button {
 }
 
 
+/*Repos div Style*/
 
 #repos {
     display: flex;
@@ -173,18 +195,7 @@ button {
 
 
 
-h3, p {
-    text-align: center;
-    color: black;
-}
-
-
-h1 {
-    font-style: italic;
-    font-weight: bold;
-    color:#027398;
-    ;
-}
+/*Sliders Style*/
 
 .mySlides {
     display: none;
@@ -216,14 +227,9 @@ img {
         opacity: 0;
     }
 }
+
+
 /*Slideshow 1*/
-.slideshow-container img {
-    opacity: 0;
-    animation-name: fade;
-    animation-duration: 9s;
-    animation-iteration-count: infinite;
-  
-}
 
 .slideshow-container {
     max-width: 1000px;
@@ -231,6 +237,15 @@ img {
     margin: auto;
     padding-top: 40px;
 }
+
+.slideshow-container img {
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;  
+}
+
+
 
 .prev, .next {
     position: absolute;
@@ -273,7 +288,17 @@ img {
     }
 
 
+
     /*Slideshow 2*/
+
+.slideshow-container1 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding-top: 80px;
+}
+
+
 .slideshow-container1 img {
     opacity: 0;
     animation-name: fade;
@@ -282,12 +307,6 @@ img {
 }
 
 
-.slideshow-container1 {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-    padding-top: 80px;
-}
 
 .prev1, .next1 {
     position: absolute;
